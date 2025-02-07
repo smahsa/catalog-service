@@ -2,7 +2,7 @@ name: Commit Stage
 on: push
 
 env:
-  REGISTRY: github.com
+  REGISTRY: ghcr.io
   IMAGE_NAME: smahsa/catalog-service.git
   VERSION: latest
 
