@@ -4,7 +4,7 @@ on: push
 env:
   REGISTRY: github.com
   IMAGE_NAME: smahsa/catalog-service.git
-
+  VERSION: latest
 
 jobs:
   build:
